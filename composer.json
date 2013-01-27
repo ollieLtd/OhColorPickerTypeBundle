@@ -1,0 +1,25 @@
+{
+    "name": "oh/oh-color-picker-type-bundle",
+    "type": "symfony-bundle",
+    "description": "A simple jQuery color picker list for Symfony2",
+    "keywords": ["color picker", "symfony", "form"],
+    "homepage": "https://github.com/ollieLtd/OhColorPickerTypeBundle",
+    "license": "MIT",
+	"version": "1.0.0",
+    "authors": [
+        {
+            "name": "Ollie Harridge",
+            "email": "code@oll.ie"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": ">=2.1,<2.3-dev"
+    },
+    "autoload": {
+        "psr-0": { 
+			"Oh\\ColorPickerTypeBundle": ""
+		}
+    },
+    "target-dir": "Oh/ColorPickerTypeBundle"
+}
