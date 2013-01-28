@@ -10,16 +10,35 @@
         {
             "name": "Ollie Harridge",
             "email": "code@oll.ie"
+        },
+        {
+            "name": "Tanguy Krotoff",
+            "email": "tkrotoff@gmail.com"
         }
+    ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "version": "master",
+                "name": "tkrotoff/jquery-simplecolorpicker",
+                "source": {
+                    "url": "https://github.com/tkrotoff/jquery-simplecolorpicker.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+	}  
     ],
     "require": {
         "php": ">=5.3.2",
-        "symfony/framework-bundle": ">=2.1,<2.3-dev"
+        "symfony/framework-bundle": ">=2.1,<2.3-dev",
+        "tkrotoff/jquery-simplecolorpicker": "dev-master"
     },
     "autoload": {
         "psr-0": { 
-			"Oh\\ColorPickerTypeBundle": ""
-		}
+                    "Oh\\ColorPickerTypeBundle": ""
+                }
     },
     "target-dir": "Oh/ColorPickerTypeBundle"
 }
