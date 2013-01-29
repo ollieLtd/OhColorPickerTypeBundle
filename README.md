@@ -44,7 +44,7 @@ If you want to automatically include the assets from the bundle, add OhColorPick
 # app/config/config.yml
 # Assetic Configuration
 assetic:
-    bundles:        [ 'OhGoogleMapFormTypeBundle' ]
+    bundles:        [ 'OhColorPickerTypeTypeBundle' ]
 ```
 
 Usage
