@@ -40,12 +40,12 @@ public function registerBundles()
 You might need to change a couple of options if you are trying to use Symfony 2.0
 
 If you want to automatically include the assets from the bundle, add OhColorPickerTypeBundle to assetic
-```yaml
-# app/config/config.yml
-# Assetic Configuration
-assetic:
-    bundles:        [ 'OhColorPickerTypeBundle' ]
-```
+
+    # app/config/config.yml
+    # Assetic Configuration
+    assetic:
+        bundles:        [ 'OhColorPickerTypeBundle' ]
+
 
 Usage
 ------------
