@@ -33,7 +33,7 @@ Register the bundle in your `app/AppKernel.php`:
 public function registerBundles()
     {
         $bundles = array(
-            new Oh\ColorPickerTypeBundle\ColorPickerTypeBundle(),
+            new Oh\ColorPickerTypeBundle\OhColorPickerTypeBundle(),
             // ...
 ```
 
