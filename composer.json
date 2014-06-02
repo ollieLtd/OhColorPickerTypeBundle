@@ -5,7 +5,6 @@
     "keywords": ["color picker", "symfony", "form"],
     "homepage": "https://github.com/ollieLtd/OhColorPickerTypeBundle",
     "license": "MIT",
-	"version": "1.0.0",
     "authors": [
         {
             "name": "Ollie Harridge",
@@ -23,8 +22,8 @@
     },
     "autoload": {
         "psr-0": { 
-                    "Oh\\ColorPickerTypeBundle": ""
-                }
+            "Oh\\ColorPickerTypeBundle": ""
+        }
     },
     "target-dir": "Oh/ColorPickerTypeBundle"
 }
