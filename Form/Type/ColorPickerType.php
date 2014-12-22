@@ -88,7 +88,8 @@ class ColorPickerType extends ChoiceType {
             'include_js'        => false,
             'include_js_constructor'=>true,
             'include_css'       => false,
-            'picker'            => false
+            'picker'            => false,
+            'placeholder'       => false
         ));
 
     }
