@@ -1,5 +1,5 @@
 {
-    "name": "oh/color-picker-type-bundle",
+    "name": "jean553/color-picker-type-bundle",
     "type": "symfony-bundle",
     "description": "A simple jQuery color picker list for Symfony2",
     "keywords": ["color picker", "symfony", "form"],
